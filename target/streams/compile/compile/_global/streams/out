@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/mnt/e/Facultate/anul3/LFA/proiect/tema/src/main/scala/Nfa.scala:58:48: comparing values of types A and A using `equals` unsafely bypasses cooperative equality; use `==` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def isFinal(state: A): Boolean = state.equals(finalState)  // TODO implement isFinal[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

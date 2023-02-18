@@ -1,0 +1,66 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 4 products, 3 sources, 2 libraries
+[debug] current source = Set(${BASE}/src/test/scala/DfaTests.scala, ${BASE}/src/test/scala/LexerTests.scala, ${BASE}/src/test/scala/NfaTests.scala, ${BASE}/src/test/scala/RegexParseTests.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/test/scala/LexerTests.scala), removed = Set(), changed = Set(), unmodified = ...),Set(${BASE}/target/scala-2.13/test-classes/DfaTests.class, ${BASE}/target/scala-2.13/test-classes/NfaTests.class, ${BASE}/target/scala-2.13/test-classes/RegexParseTests.class),Set(),API Changes: Set(NamesChange(Nfa,ModifiedNames(changes = UsedName(finalStates,[Default]), UsedName(apply,[Default]), UsedName(copy$default$2,[Default]), UsedName(unapply,[Default]), UsedName(finalState,[Default]), UsedName(Nfa;init;,[Default]), UsedName(copy,[Default]))), NamesChange(Dfa$,ModifiedNames(changes = UsedName(coversionMap,[Default]), UsedName(myMap,[Default]), UsedName(addTransition,[Default]), UsedName(fromNfa,[Default]))), NamesChange(Nfa$,ModifiedNames(changes = UsedName(finalStates,[Default]), UsedName(apply,[Default]), UsedName(copy$default$2,[Default]), UsedName(unapply,[Default]), UsedName(finalState,[Default]), UsedName(Nfa;init;,[Default]), UsedName(copy,[Default]))), NamesChange(Dfa,ModifiedNames(changes = UsedName(coversionMap,[Default]), UsedName(myMap,[Default]), UsedName(addTransition,[Default]), UsedName(fromNfa,[Default])))))
+[debug] The Nfa has the following regular definitions changed:
+[debug] 	UsedName(finalStates,[Default]), UsedName(apply,[Default]), UsedName(copy$default$2,[Default]), UsedName(unapply,[Default]), UsedName(finalState,[Default]), UsedName(Nfa;init;,[Default]), UsedName(copy,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Nfa: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Nfa.
+[debug] The following modified names cause invalidation of NfaTests: [apply]
+[debug] The Dfa$ has the following regular definitions changed:
+[debug] 	UsedName(coversionMap,[Default]), UsedName(myMap,[Default]), UsedName(addTransition,[Default]), UsedName(fromNfa,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Dfa$: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Dfa$.
+[debug] None of the modified names appears in source file of DfaTests. This dependency is not being considered for invalidation.
+[debug] None of the modified names appears in source file of RegexParseTests. This dependency is not being considered for invalidation.
+[debug] The Nfa$ has the following regular definitions changed:
+[debug] 	UsedName(finalStates,[Default]), UsedName(apply,[Default]), UsedName(copy$default$2,[Default]), UsedName(unapply,[Default]), UsedName(finalState,[Default]), UsedName(Nfa;init;,[Default]), UsedName(copy,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Nfa$: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Nfa$.
+[debug] The following modified names cause invalidation of NfaTests: [apply]
+[debug] The Dfa has the following regular definitions changed:
+[debug] 	UsedName(coversionMap,[Default]), UsedName(myMap,[Default]), UsedName(addTransition,[Default]), UsedName(fromNfa,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Dfa: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Dfa.
+[debug] None of the modified names appears in source file of DfaTests. This dependency is not being considered for invalidation.
+[debug] None of the modified names appears in source file of RegexParseTests. This dependency is not being considered for invalidation.
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set(${BASE}/src/test/scala/LexerTests.scala)
+[debug] 	modified: Set()
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/test-classes/DfaTests.class, ${BASE}/target/scala-2.13/test-classes/NfaTests.class, ${BASE}/target/scala-2.13/test-classes/RegexParseTests.class)
+[debug] External API changes: API Changes: Set(NamesChange(Nfa,ModifiedNames(changes = UsedName(finalStates,[Default]), UsedName(apply,[Default]), UsedName(copy$default$2,[Default]), UsedName(unapply,[Default]), UsedName(finalState,[Default]), UsedName(Nfa;init;,[Default]), UsedName(copy,[Default]))), NamesChange(Dfa$,ModifiedNames(changes = UsedName(coversionMap,[Default]), UsedName(myMap,[Default]), UsedName(addTransition,[Default]), UsedName(fromNfa,[Default]))), NamesChange(Nfa$,ModifiedNames(changes = UsedName(finalStates,[Default]), UsedName(apply,[Default]), UsedName(copy$default$2,[Default]), UsedName(unapply,[Default]), UsedName(finalState,[Default]), UsedName(Nfa;init;,[Default]), UsedName(copy,[Default]))), NamesChange(Dfa,ModifiedNames(changes = UsedName(coversionMap,[Default]), UsedName(myMap,[Default]), UsedName(addTransition,[Default]), UsedName(fromNfa,[Default]))))
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set()
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/test/scala/DfaTests.scala, ${BASE}/src/test/scala/NfaTests.scala, ${BASE}/src/test/scala/RegexParseTests.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set(NfaTests)
+[debug] all 4 sources are invalidated
+[debug] Initial set of included nodes: NfaTests
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 4 Scala sources to /mnt/e/Facultate/anul3/LFA/proiect/tema/target/scala-2.13/test-classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.8.0:compile for Scala 2.13.8
+[debug] [zinc] Running cached compiler 6eb44230 for Scala compiler version 2.13.8
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/home/eugen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	/mnt/e/Facultate/anul3/LFA/proiect/tema/target/scala-2.13/test-classes:/mnt/e/Facultate/anul3/LFA/proiect/tema/target/scala-2.13/classes:/home/eugen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/munit_2.13/0.7.26/munit_2.13-0.7.26.jar:/home/eugen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/junit-interface/0.7.26/junit-interface-0.7.26.jar:/home/eugen/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar:/home/eugen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/eugen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[debug] Scala compilation took 3.374009773 s
+[info] done compiling

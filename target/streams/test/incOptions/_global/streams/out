@@ -1,0 +1,18 @@
+[debug] Created transactional ClassFileManager with tempDir = /mnt/e/Facultate/anul3/LFA/proiect/tema/target/scala-2.13/test-classes.bak
+[debug] About to delete class files:
+[debug] 	DfaTests.class
+[debug] 	NfaTests$TestIterator$1.class
+[debug] 	NfaTests.class
+[debug] 	RegexParseTests.class
+[debug] We backup class files:
+[debug] 	DfaTests.class
+[debug] 	NfaTests$TestIterator$1.class
+[debug] 	NfaTests.class
+[debug] 	RegexParseTests.class
+[debug] Registering generated classes:
+[debug] 	LexerTests.class
+[debug] 	NfaTests$TestIterator$1.class
+[debug] 	RegexParseTests.class
+[debug] 	NfaTests.class
+[debug] 	DfaTests.class
+[debug] Removing the temporary directory used for backing up class files: /mnt/e/Facultate/anul3/LFA/proiect/tema/target/scala-2.13/test-classes.bak

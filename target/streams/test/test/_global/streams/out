@@ -1,0 +1,13 @@
+[debug] Running TaskDef(RegexParseTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])
+[debug] Running TaskDef(DfaTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])
+[debug] Running TaskDef(LexerTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])
+[debug] Running TaskDef(NfaTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])
+[debug] Summary for munit not available.
+[error] Failed: Total 72, Failed 8, Errors 0, Passed 64
+[debug] Passed tests:
+[debug] 	NfaTests
+[error] Failed tests:
+[error] 	DfaTests
+[error] 	LexerTests
+[error] 	RegexParseTests
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
